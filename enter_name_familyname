@@ -1,0 +1,4 @@
+# Ask for the user’s first name and then ask for their family name and display the output message
+First_Name = input("Enter your first name: ");
+Surname = input("Enter your first name: ");
+print("Hello, ", First_Name, Surname);
