@@ -1,0 +1,6 @@
+# Ask the user for their name and their age. Add 1 to their age and display the output [Name] next birthday you
+# will be [new age].
+Name = input("Enter your name: ");
+Age = int(input("Enter your age: "));
+New_Age = Age + 1;
+print(Name, "next birthday you will be: ", New_Age);
