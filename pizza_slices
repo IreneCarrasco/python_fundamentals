@@ -1,0 +1,6 @@
+# Ask how many slices of pizza the user started with and ask how many slices they have eaten.
+# Work out how many slices they have left and display the answer in a user-friendly format.
+Initial_Slices = int(input("How many slices of pizza did you have?: "));
+Eaten_Slices = int(input("How many slices of pizza have you eaten?: "));
+answer = Initial_Slices - Eaten_Slices;
+print("You have left", answer, "Slices of pizza");
